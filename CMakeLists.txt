@@ -4,6 +4,10 @@ project(RingBufferProject)
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 11)
 
+# Add including debug symbols
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+
+
 # Add include directories
 include_directories(include)
 
